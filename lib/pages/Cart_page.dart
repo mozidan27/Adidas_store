@@ -33,7 +33,7 @@ class _CartPageState extends State<CartPage> {
               child: value.getUserCart().isEmpty
                   ? Center(
                       child: Text(
-                        "Let's buy something",
+                        "Your Cart Is Empty",
                         style: TextStyle(
                             color: Colors.grey[500],
                             fontSize: 28,

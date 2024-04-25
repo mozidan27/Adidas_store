@@ -31,8 +31,11 @@ class ShoeTile extends StatelessWidget {
               )),
 
           // description
-          Text(
-            shoe.descrption,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 15),
+            child: Text(
+              shoe.descrption,
+            ),
           ),
 
           // item name , price and add button
@@ -48,11 +51,11 @@ class ShoeTile extends StatelessWidget {
                   Text(
                     shoe.name,
                     style: const TextStyle(
-                        fontWeight: FontWeight.bold, fontSize: 20),
+                        fontWeight: FontWeight.bold, fontSize: 18),
                   ),
                   // shoe price
                   Text(
-                    '\$ ${shoe.price}',
+                    'EGP ${shoe.price}',
                     style: const TextStyle(color: Colors.grey),
                   )
                 ]),
