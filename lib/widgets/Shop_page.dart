@@ -21,6 +21,7 @@ class _ShopPageState extends State<ShopPage> {
       context: context,
       builder: (context) => const AlertDialog(
         surfaceTintColor: Colors.white,
+        backgroundColor: Colors.white,
         title: Text('Successfully added!'),
         titlePadding: EdgeInsets.all(25),
         content: Text('Check your cart'),
