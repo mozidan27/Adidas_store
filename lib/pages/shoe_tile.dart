@@ -1,7 +1,7 @@
 import 'package:adidas/models/shoe.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
+// ignore: must_be_immutable
 class ShoeTile extends StatelessWidget {
   Shoe shoe;
   void Function()? onTap;

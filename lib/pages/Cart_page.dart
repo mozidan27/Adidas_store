@@ -1,9 +1,7 @@
 import 'package:adidas/models/cart_model.dart';
 import 'package:adidas/models/shoe.dart';
 import 'package:adidas/widgets/Cart_item.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
 class CartPage extends StatefulWidget {
